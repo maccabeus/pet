@@ -1,7 +1,10 @@
-
+a
 import Dashboard from "./../../../src/js/dashboard/";
+import React from 'react';
+import renderer from 'react-test-renderer';
 
-test("user-can-join-multiple-channels",  (done)=>{
-    
-   // expect(value).toBe(testRes);
+it('Dashboard renders correctly', () => {
+    const tree = renderer.componentDidMount(Dashboard)
+        .toJSON();
+    expect(tree).toMatchSnapshot();
 });

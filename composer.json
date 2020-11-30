@@ -1,0 +1,15 @@
+{
+    "name": "maccabeus/pet",
+    "description": "A simple pet blog",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Abidemi",
+            "email": "Anthony.adeniyi@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "9.3"
+    }
+}

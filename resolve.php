@@ -2,6 +2,7 @@
 $includeFiles = array(
     'lib/functions.php',
     'lib/Pet.php',
+	'vendor/autoload.php',
 );
 
 $baseDir = null;
