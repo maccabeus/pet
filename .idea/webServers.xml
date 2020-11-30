@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0dc7514-0409-4b2d-9410-1b367097dc9d" name="pet">
+        <fileTransfer rootFolder="/apps/" accessType="SFTP" host="ftp.mlisoft.com" port="2222" sshConfigId="445edbb4-f1fb-4f49-a368-d43c47e9a7a4" sshConfig="maccabeus@ftp.mlisoft.com:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

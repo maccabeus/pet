@@ -13,4 +13,10 @@ return array(
         'password' => '',
         'database' => 'pet',
     ),
+    'web' => array(
+        'server_name' => 'befonds87110.ipagemysql.com',
+        'user_name' => 'pet',
+        'password' => 'anthony85',
+        'database' => 'pet',
+    ),
 );
